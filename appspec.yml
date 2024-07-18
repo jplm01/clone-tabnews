@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "site"  # Nome da definição de tarefa ECS
+        TaskDefinition: "arn:aws:ecs:us-east-1:475476595453:task-definition/site:7"  # Nome da definição de tarefa ECS
         LoadBalancerInfo:
           ContainerName: "site"  # Nome do contêiner definido na tarefa
           ContainerPort: 3000

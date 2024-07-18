@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Construa o projeto Next.js
-RUN npm run dev
+RUN npm run build
 
 # Defina a variável de ambiente para a produção
 #ENV NODE_ENV=production

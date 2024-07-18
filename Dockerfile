@@ -1,5 +1,5 @@
 # Use a imagem oficial do Node.js LTS Hydrogen como imagem base
-FROM node:18-alpine
+FROM public.ecr.aws/docker/library/node:lts-hydrogen
 
 # Defina o diretório de trabalho dentro do contêiner
 WORKDIR /app
